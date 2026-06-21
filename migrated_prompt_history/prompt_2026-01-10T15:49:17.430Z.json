@@ -1,0 +1,170 @@
+[
+  {
+    "id": 27,
+    "author": "user",
+    "payload": {
+      "type": "text",
+      "text": "Изображение карточки внизу страрицы:\nhttps://raw.githubusercontent.com/bunker-255/onTech/refs/heads/main/photo/IMG-20251210-WA0029.jpg",
+      "files": [],
+      "fileUploads": [],
+      "cMarkNode": {}
+    },
+    "createdTimestamp": {
+      "seconds": 1768059784,
+      "nanos": 787000000
+    }
+  },
+  {
+    "id": 28,
+    "author": "model",
+    "payload": {
+      "type": "thinking",
+      "text": "**Defining Website Scope**\n\nI'm currently focused on defining the website's scope for \"onTech Israel.\" The key areas are network rack assembly, fiber optics, cabling, and security systems. My goal is to structure the information logically and highlight the company's core services effectively.\n\n\n**Updating Visual Elements**\n\nI'm now integrating an image into the website's visual content. I've noted a specific image provided and am working on incorporating it appropriately. Furthermore, I'm reviewing the website's component structure and considering best practices for a seamless user experience. I'm focusing on ensuring the visual elements complement the core services effectively.\n\n\n**Locating the Target Image**\n\nI am now focusing on identifying the exact image the user wants to change. The phrase \"Image of the card at the bottom of the page\" is ambiguous. I've considered that it might be the background in the Contact section, or the image in the About section, which is styled like a card. I'm carefully reviewing the layout to pinpoint the correct image the user means.\n\n\n**Pinpointing Image Replacement**\n\nI've zeroed in on the likely target: the image within the `About.tsx` component, specifically the one described as a \"card.\" My analysis of the code and the context of the user's request, coupled with the provided image URL, strongly suggests this is the element they wish to replace. I'm confident now, based on the provided location and purpose of the image.\n\n\n**Clarifying Image Location**\n\nI'm now refining my understanding of the user's intent. While \"bottom\" could refer to the footer, the repeated reference to a \"card image\" strongly points to the `components/About.tsx` file. I'm operating under the assumption that the user wants the provided image in that section, not elsewhere. Furthermore, given the repeated copies and differing image URLs, I will proceed with updating the image link in that file to the newer URL.\n\n\n**Verifying Image Source**\n\nI've confirmed the image location within `components/About.tsx`, based on the context and the user's description of a \"card image.\" I'm proceeding to update the image source with the new URL and the existing image attributes. I'm also ensuring the \"Network rack assembly\" translation in `constants.ts` is correct. My focus remains on pinpointing any other changes the user specified.\n\n\n**Confirming Image Swap**\n\nI'm now certain the target image is within `components/About.tsx`. My focus has shifted to the `Server.jpg` image in the `About` section, styled as a \"card.\" I'll replace the existing `src` attribute with the GitHub raw URL. I'm also ensuring \"Network assembly\" is correct in the `constants.ts` file. My attention is drawn to whether there might be further modifications desired by the user.\n\n\n**Reviewing Code Modifications**\n\nI'm now going through the code for a final review. I've confirmed the image swap in `components/About.tsx`, focusing on replacing the existing image source with the GitHub raw URL, considering the \"card\" context and the user's intent to update the \"Server.jpg\" image. I've also double-checked the \"Network assembly\" string in `constants.ts`. I'm making sure that I have not overlooked any other modifications the user may have desired. I'm satisfied now, based on my understanding, that there are no remaining changes beyond the identified image update.\n\n\n**Refining Code Review**\n\nI'm revisiting the code, specifically the `components/About.tsx` file and the corresponding image replacement. I'm double-checking the accuracy of the new image URL and that all attributes are correctly applied to ensure the visual element renders as expected. I'm also ensuring the associated text, related to network assembly, is still correct. I'm now certain all is in order.\n\n\n**Assessing Text Adjustments**\n\nI'm now focusing on the text within the `About.tsx` component. I'm reviewing the provided HTML snippet to determine if any modifications are requested concerning the description, stats, or labels. I'm paying close attention to the classes and content placeholders, ensuring that the necessary elements are in place.\n\n\n**Interpreting HTML Details**\n\nI am now focusing on the HTML details within the `About.tsx` component. Specifically, I'm examining the provided snippet and reviewing the structure of the text-related elements, classes, and content placeholders. My attention is on the `stat3Label` to determine if any modifications or updates are needed within this part of the section.\n\n\n**Confirming Component Focus**\n\nI'm verifying that the image I'm updating is definitely in the `About.tsx` component. The provided code snippet seems to confirm this. I'm focusing on the \"Certified Experts\" section and the background element, and making sure my changes are correct within the context of the larger page layout. I'm ready to proceed with the modifications.\n\n\n**Confirming Image Context**\n\nI'm now revisiting the \"card\" image discussion, and I've checked the new raw GitHub URL. The existing prominent card image location in `About.tsx` is my core focus. While I've examined other cards, the prompt leans towards updating the main image in \"About\". Furthermore, the provided description reinforces this, and the Russian language section in `constants.ts` makes sense here as well. The new image's description, which also appears to be about \"racks/cabling\", further solidifies this focus.\n\n\n**Verifying Component Source**\n\nI'm now fully confident about my focus on `About.tsx`. I've dismissed concerns about `Hero.tsx` and `Contact.tsx`. The \"card\" description and placement near the bottom of the page strongly suggest the \"About\" section is the correct target. I'll now implement the image change in `components/About.tsx`, confirming translations in `constants.ts` are sufficient.\n\n\n**Finalizing Image Integration**\n\nI'm now fully focused on the provided image URL and how it will be integrated. Considering the existing \"card image\" in `About.tsx`, I'll replace the existing source. The text now clearly indicates a focus on the image replacement. I'm ready to proceed with the update and am confident about the scope of the task.\n\n\n**Confirming File Modification**\n\nI'm now certain I'll be modifying `components/About.tsx`, based on the nuanced interpretation of \"card image.\" Considering Russian phrasing, it is likely the goal is to define an existing element. I'm proceeding with replacing the image's source attribute with the user's provided URL within this component.\n\n\n**Updating Textual Components**\n\nI'm now zeroing in on the text within `About.tsx`. I'm analyzing the provided snippet, specifically the `description` and title sections. I'll need to determine if the user wants any changes to the text content within these elements, and I'll confirm that the HTML structure, classes, and content placeholders remain correct.\n\n\n**Analyzing Text Snippet**\n\nI am now closely examining the HTML snippet for `About.tsx`, specifically focusing on the stats section: `stat1`, `stat2`, and `stat3`. I'm checking if the user wants any alterations to the associated labels and numerical values. I'm focusing on their layout, content, and any other relevant modifications.\n\n\n**Updating Image Attributes**\n\nI'm now zeroing in on the text within `About.tsx`. I am going to verify the attributes and values associated with the image are correct after the replacement. Furthermore, I will confirm the structure of the classes and content placeholders remains valid after the image update.\n\n\n\n**Analyzing Existing Text**\n\nI'm now focusing on analyzing the existing text within the `About.tsx` component, specifically the provided HTML snippet. I need to determine if there are any desired modifications to the description, the stats labels, or any other textual elements. I'm focusing on preserving any existing classes and content.\n\n\n**Reflecting on Structural Consistency**\n\nI'm now consolidating the text changes, focusing on preserving the original structural elements within `About.tsx`, especially considering the provided HTML. I will meticulously check each stat label and description to ensure any modifications respect the existing classes and content placeholders. Finally, I will ensure the text is consistent and appropriate.\n\n\n\n",
+      "cMarkNode": {}
+    },
+    "createdTimestamp": {
+      "seconds": 1768059784,
+      "nanos": 788000000
+    },
+    "doneTimestamp": {
+      "seconds": 1768059894,
+      "nanos": 316000000
+    }
+  },
+  {
+    "id": 29,
+    "author": "model",
+    "payload": {
+      "type": "text",
+      "text": "I have updated the `About` section to use the specific image you provided, which will appear in the styled card component near the bottom of the page (before the contact form).\n\nHere are the changes:\n\n",
+      "cMarkNode": {}
+    },
+    "createdTimestamp": {
+      "seconds": 1768059894,
+      "nanos": 316000000
+    },
+    "doneTimestamp": {
+      "seconds": 1768059894,
+      "nanos": 317000000
+    }
+  },
+  {
+    "id": 30,
+    "author": "model",
+    "payload": {
+      "type": "generationTable",
+      "entries": [
+        {
+          "path": "components/About.tsx",
+          "generationType": 1,
+          "isDone": true,
+          "description": "Updated the main visual image in the About section to the specific project photo provided.",
+          "diffs": [
+            {
+              "target": "",
+              "replacement": "import React from 'react';\nimport { useLanguage } from '../contexts/LanguageContext';\nimport { Check } from 'lucide-react';\n\nconst About: React.FC = () => {\n  const { content } = useLanguage();\n\n  return (\n    <section id=\"about\" className=\"py-32 bg-slate-50 overflow-hidden\">\n      <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n        <div className=\"lg:grid lg:grid-cols-12 lg:gap-16 items-center\">\n          {/* Text Content */}\n          <div className=\"lg:col-span-6 animate-fade-up\">\n            <div className=\"inline-flex items-center px-4 py-2 rounded-full bg-brand-50 border border-brand-100 text-brand-700 font-semibold text-sm mb-6\">\n              <span className=\"w-2 h-2 rounded-full bg-brand-600 mr-2 animate-pulse\"></span>\n              {content.about.title}\n            </div>\n            \n            <h2 className=\"text-4xl md:text-5xl font-black text-slate-900 mb-8 leading-tight\">\n              Building the <span className=\"text-brand-600 decoration-4 decoration-brand-200 underline underline-offset-4\">backbone</span> of your business.\n            </h2>\n            \n            <p className=\"text-xl text-slate-600 mb-10 leading-relaxed font-light\">\n              {content.about.description}\n            </p>\n\n            <div className=\"grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-slate-200\">\n              <div className=\"text-center sm:text-left rtl:sm:text-right\">\n                <div className=\"text-4xl font-black text-slate-900 mb-1\">{content.about.stat1}</div>\n                <div className=\"text-sm font-bold text-slate-500 uppercase tracking-wider\">{content.about.stat1Label}</div>\n              </div>\n              <div className=\"text-center sm:text-left rtl:sm:text-right\">\n                <div className=\"text-4xl font-black text-slate-900 mb-1\">{content.about.stat2}</div>\n                <div className=\"text-sm font-bold text-slate-500 uppercase tracking-wider\">{content.about.stat2Label}</div>\n              </div>\n              <div className=\"text-center sm:text-left rtl:sm:text-right\">\n                <div className=\"text-4xl font-black text-slate-900 mb-1\">{content.about.stat3}</div>\n                <div className=\"text-sm font-bold text-slate-500 uppercase tracking-wider\">{content.about.stat3Label}</div>\n              </div>\n            </div>\n          </div>\n\n          {/* Image Content - \"Grand\" visual */}\n          <div className=\"lg:col-span-6 mt-16 lg:mt-0 relative\">\n            <div className=\"relative rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white transform rotate-2 hover:rotate-0 transition-transform duration-700\">\n               <img\n                src=\"https://raw.githubusercontent.com/bunker-255/onTech/refs/heads/main/photo/IMG-20251210-WA0029.jpg\"\n                alt=\"Structured Cabling\"\n                className=\"w-full h-[600px] object-cover filter contrast-110\"\n              />\n              <div className=\"absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent\"></div>\n              \n              {/* Floating Badge */}\n              <div className=\"absolute bottom-10 left-10 bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-xl max-w-xs border border-white/50\">\n                <div className=\"flex items-center gap-4 mb-3\">\n                  <div className=\"bg-green-100 p-2 rounded-full text-green-600\">\n                    <Check size={20} strokeWidth={3} />\n                  </div>\n                  <span className=\"font-bold text-slate-800\">Certified Experts</span>\n                </div>\n                <p className=\"text-slate-600 text-sm\">ISO 9001 certified installation processes guaranteed.</p>\n              </div>\n            </div>\n            \n            {/* Decorative background element */}\n            <div className=\"absolute -z-10 top-10 -right-10 w-full h-full bg-brand-100/50 rounded-[2rem] transform -rotate-3\"></div>\n          </div>\n        </div>\n      </div>\n    </section>\n  );\n};\n\nexport default About;"
+            }
+          ]
+        }
+      ]
+    },
+    "createdTimestamp": {
+      "seconds": 1768059894,
+      "nanos": 319000000
+    },
+    "doneTimestamp": {
+      "seconds": 1768059904,
+      "nanos": 90000000
+    }
+  },
+  {
+    "id": 32,
+    "author": "user",
+    "payload": {
+      "type": "text",
+      "text": "+972 52-608-5951\nЭто телефон.\n\nДюпусть кнопка связи ссылается на ватсап. Та же убери форму связи",
+      "files": [],
+      "fileUploads": [],
+      "cMarkNode": {}
+    },
+    "createdTimestamp": {
+      "seconds": 1768060032,
+      "nanos": 202000000
+    }
+  },
+  {
+    "id": 33,
+    "author": "model",
+    "payload": {
+      "type": "thinking",
+      "text": "**Updating Website Details**\n\nI've begun by analyzing the request and pinpointing the goal: updating the \"onTech\" website. My initial focus is updating the phone number to +972 52- as requested. I'll examine the website's structure next, to pinpoint the relevant files for editing.\n\n\n**Analyzing Localization Data**\n\nI'm currently focused on the `constants.ts` file, specifically the phone-related strings. It looks like the relevant keys are `phonePlaceholder` across English, Russian, and Hebrew translations. The request implies updating *display* phone numbers. I need to make sure the app correctly uses these values, or any hardcoded numbers. I'll need to check how these placeholders are used. I am examining their use to determine where updates are required.\n\n\n**Examining UI Updates**\n\nI'm now focused on the UI changes for the `Contact` component. I've noted the need to update the phone number in the \"Call Us\" section and remove the form. The new requirement includes adding a WhatsApp button. I'm examining how to center the content effectively and ensure the layout looks good without the form. I'm checking to make sure that the links to `#contact` will still work correctly. I need to make sure that the button correctly links to a WhatsApp number.\n\n\n**Refining Component Interactions**\n\nI've decided to keep the \"Get a Quote\" button's current linking behavior to the `#contact` section, in the `Hero`, `Navbar` and `Services` components, given the removal of the form, while the new components are shown on screen. I will make the contact section very clear to avoid any confusion. I'm focusing on the component changes. The removal of the grid layout and display of contact details, including a WhatsApp button and updated phone number, are key priorities. I'll make the new phone number text `+972 52-608-5951`.\n\n\n**Developing Component Logic**\n\nI'm now drafting the component changes for `Contact.tsx`. I've added the necessary imports, including `MessageCircle`. The container will be narrower now that the form is gone. I'm focusing on the grid of contact cards, including the phone number display and link, and the WhatsApp logic, specifically the correct link structure with a pre-filled message. I'm considering what to do about the form labels in `constants.ts` since they are no longer in use.\n\n\n**Revising Code Assumptions**\n\nI've examined the unused form keys, realizing they are defined in `types.ts`. To avoid breaking changes elsewhere, I'll ignore these form labels within `Contact.tsx` instead of removing them, and hardcode the phone number provided, and the specific text, in the code. I can then focus on the new section design.\n\n\n**Simplifying Contact Logic**\n\nI've removed the `useState` and `handleSubmit` hooks, and removed the `<form>` block completely. I'm centering the remaining content. I've updated the phone number's text and `href` link. I'm now adding the WhatsApp button, focusing on the link's structure and pre-filled message. I'm going to leave `types.ts` and `constants.ts` alone, and hardcode the contact details.\n\n\n**Integrating New Components**\n\nI'm now integrating the new component changes. The WhatsApp link is `https://wa.me/972526085951` and the phone link is `tel:+972526085951`. I've decided to maintain the existing button color. I will use the established `brand` colors with a green background for the WhatsApp button (`bg-[#25D366]`). I've finished implementing the new layout.\n\n\n**Optimizing Component Structure**\n\nI'm now revising the design for `Contact.tsx`. I've decided on centered content: a title and subtitle, a prominent WhatsApp button as the primary action, and secondary actions for phone, email, and location in a grid. I'm prioritizing the WhatsApp link and centering the layout, and considering the button color. I will also make sure the phone number is updated throughout the component. The changes will make contact easier.\n\n\n**Defining Interaction Priorities**\n\nI'm now clarifying the interactions for the Contact section. The \"Get a Quote\" and \"Contact\" links will still scroll to the contact area, now dominated by a prominent WhatsApp option. I'll remove the form and update the phone number to +972 52-608-5951, and make sure the link correctly points to `https://wa.me/972526085951`.\n\n\n**Refining WhatsApp Integration**\n\nI'm now integrating WhatsApp links, and have decided to prioritize a clear scrolling path to the contact area, with a prominent WhatsApp option. The CTA in `Hero.tsx` will link to the `#contact` section. I've noted the existing phone number placeholder, but found a hardcoded phone number. I'll focus on making the WhatsApp button the primary action in `Contact.tsx`, and will update both components.\n\n\n**Modifying Component Links**\n\nI'm now revising the plan. I'll make the \"Get a Quote\" button in `Hero.tsx` link to WhatsApp. I will also make the \"Contact\" link still point to the Contact section, with the WhatsApp button at the top. I need to keep the section for the navbar link. Finally, I'll update the contact section to feature the new layout.\n\n\n**Finalizing Link Integration**\n\nI'm now implementing the final changes. The `Hero.tsx` component's CTA is updated to a WhatsApp link, directing users directly to a chat. The `Contact.tsx` component is now fully redesigned, featuring the new layout with the WhatsApp button prominently displayed and updated contact details. All the links are updated. The changes are complete!\n\n\n**Finalizing Visual Consistency**\n\nI'm now making final updates to ensure visual consistency across components. I'm focusing on the WhatsApp button's color in all areas, making sure it has the correct green background, `bg-[#25D366]`, throughout the website. I have checked `Services.tsx` as well to make sure links still scroll to the contact area, as intended. The process is complete.\n\n\n",
+      "cMarkNode": {}
+    },
+    "createdTimestamp": {
+      "seconds": 1768060032,
+      "nanos": 202000000
+    },
+    "doneTimestamp": {
+      "seconds": 1768060133,
+      "nanos": 267000000
+    }
+  },
+  {
+    "id": 34,
+    "author": "model",
+    "payload": {
+      "type": "text",
+      "text": "Here are the changes to update the phone number, remove the contact form, and integrate WhatsApp as the primary communication method.\n\n1.  **`components/Contact.tsx`**: I have completely redesigned this section. I removed the contact form and the split-screen layout. It now features a centralized design with a prominent \"Chat on WhatsApp\" button and the updated contact details.\n2.  **`components/Hero.tsx`**: I updated the main \"Get a Quote\" CTA button to open WhatsApp directly, ensuring immediate conversion.\n\n",
+      "cMarkNode": {}
+    },
+    "createdTimestamp": {
+      "seconds": 1768060133,
+      "nanos": 267000000
+    },
+    "doneTimestamp": {
+      "seconds": 1768060133,
+      "nanos": 269000000
+    }
+  },
+  {
+    "id": 35,
+    "author": "model",
+    "payload": {
+      "type": "generationTable",
+      "entries": [
+        {
+          "path": "components/Contact.tsx",
+          "generationType": 1,
+          "isDone": true,
+          "description": "Removed contact form, updated phone number to +972 52-608-5951, added prominent WhatsApp button, and centered the layout.",
+          "diffs": [
+            {
+              "target": "",
+              "replacement": "import React from 'react';\nimport { useLanguage } from '../contexts/LanguageContext';\nimport { Phone, Mail, MapPin, ArrowRight, MessageCircle } from 'lucide-react';\n\nconst Contact: React.FC = () => {\n  const { content } = useLanguage();\n\n  const phoneNumber = \"52-608-5951\";\n  const fullPhoneNumber = \"+972 52-608-5951\";\n  const whatsappNumber = \"972526085951\";\n  const email = \"info@ontech-israel.com\"; // Keeping placeholder email, can be updated if needed\n\n  return (\n    <section id=\"contact\" className=\"relative py-32 bg-slate-900 text-white overflow-hidden\">\n      {/* Map Background Concept */}\n      <div className=\"absolute inset-0 opacity-10 pointer-events-none\">\n         <img src=\"https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop\" alt=\"World Map\" className=\"w-full h-full object-cover grayscale\" />\n      </div>\n      \n      <div className=\"absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900/95 to-slate-950\"></div>\n\n      <div className=\"relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n        \n        {/* Header */}\n        <div className=\"animate-fade-up mb-16\">\n          <h2 className=\"text-4xl md:text-6xl font-black mb-6 tracking-tight text-white\">{content.contact.title}</h2>\n          <p className=\"text-xl text-slate-400 font-light max-w-2xl mx-auto leading-relaxed\">\n            {content.contact.subtitle}\n          </p>\n        </div>\n\n        {/* Main Action - WhatsApp */}\n        <div className=\"animate-fade-up delay-100 mb-16\">\n          <a \n            href={`https://wa.me/${whatsappNumber}?text=Hi,%20I'm%20interested%20in%20onTech%20services.`}\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n            className=\"group relative inline-flex items-center justify-center px-10 py-6 text-xl font-bold text-white transition-all duration-300 bg-[#25D366] rounded-2xl hover:bg-[#20bd5a] hover:shadow-[0_0_40px_-10px_rgba(37,211,102,0.6)] focus:outline-none transform hover:-translate-y-1\"\n          >\n            <MessageCircle size={32} className=\"mr-3\" />\n            <span>Chat on WhatsApp</span>\n            <ArrowRight className=\"ml-3 rtl:mr-3 rtl:ml-0 w-6 h-6 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform\" />\n            \n            {/* Ping effect */}\n            <span className=\"absolute -top-2 -right-2 flex h-5 w-5\">\n              <span className=\"animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75\"></span>\n              <span className=\"relative inline-flex rounded-full h-5 w-5 bg-green-500\"></span>\n            </span>\n          </a>\n        </div>\n\n        {/* Secondary Actions Grid */}\n        <div className=\"grid grid-cols-1 md:grid-cols-3 gap-6 animate-fade-up delay-200\">\n          \n          {/* Phone Card */}\n          <a href={`tel:${whatsappNumber}`} className=\"group p-8 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 hover:-translate-y-1\">\n            <div className=\"w-16 h-16 mx-auto bg-brand-600/20 text-brand-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform\">\n              <Phone size={32} />\n            </div>\n            <h3 className=\"text-lg font-bold text-white mb-2\">Call Us</h3>\n            <p className=\"text-slate-400 font-mono text-lg\">{fullPhoneNumber}</p>\n          </a>\n\n          {/* Email Card */}\n          <a href={`mailto:${email}`} className=\"group p-8 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 hover:-translate-y-1\">\n            <div className=\"w-16 h-16 mx-auto bg-purple-600/20 text-purple-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform\">\n              <Mail size={32} />\n            </div>\n            <h3 className=\"text-lg font-bold text-white mb-2\">Email Us</h3>\n            <p className=\"text-slate-400 text-lg\">{email}</p>\n          </a>\n\n          {/* Location Card */}\n          <div className=\"group p-8 rounded-3xl bg-white/5 border border-white/5 transition-all duration-300\">\n            <div className=\"w-16 h-16 mx-auto bg-amber-600/20 text-amber-400 rounded-2xl flex items-center justify-center mb-6\">\n              <MapPin size={32} />\n            </div>\n            <h3 className=\"text-lg font-bold text-white mb-2\">Main Office</h3>\n            <p className=\"text-slate-400 text-lg\">Tel Aviv, Israel</p>\n          </div>\n\n        </div>\n      </div>\n    </section>\n  );\n};\n\nexport default Contact;"
+            }
+          ]
+        },
+        {
+          "path": "components/Hero.tsx",
+          "generationType": 1,
+          "isDone": true,
+          "description": "Updated the CTA button to link directly to WhatsApp instead of scrolling to the contact section.",
+          "diffs": [
+            {
+              "target": "",
+              "replacement": "import React from 'react';\nimport { useLanguage } from '../contexts/LanguageContext';\nimport { ArrowRight, ArrowLeft, ChevronDown, MessageCircle } from 'lucide-react';\nimport { scrollToSection } from '../utils/scroll';\n\nconst Hero: React.FC = () => {\n  const { content, dir } = useLanguage();\n  const ArrowIcon = dir === 'rtl' ? ArrowLeft : ArrowRight;\n  const whatsappNumber = \"972526085951\";\n\n  return (\n    <div id=\"home\" className=\"relative min-h-screen flex items-center justify-center bg-tech-dark overflow-hidden\">\n      {/* Dynamic Background */}\n      <div className=\"absolute inset-0 z-0\">\n        <div className=\"absolute inset-0 bg-tech-grid opacity-20\"></div>\n        <img\n          src=\"https://images.unsplash.com/photo-1558494949-ef526bca4852?q=80&w=2668&auto=format&fit=crop\"\n          alt=\"Data Center\"\n          className=\"w-full h-full object-cover opacity-30\"\n        />\n        <div className=\"absolute inset-0 bg-gradient-to-t from-tech-dark via-tech-dark/80 to-slate-900/40\"></div>\n        \n        {/* Glowing Orbs */}\n        <div className=\"absolute top-1/4 left-1/4 w-96 h-96 bg-brand-500/20 rounded-full blur-[100px] animate-pulse\"></div>\n        <div className=\"absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[120px]\"></div>\n      </div>\n\n      <div className=\"relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20\">\n        <div className=\"animate-fade-up\">\n           <span className=\"inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-brand-300 text-xs font-bold tracking-[0.2em] uppercase mb-6 backdrop-blur-md\">\n            Next Gen Infrastructure\n          </span>\n          <h1 className=\"text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight tracking-tight mb-8 drop-shadow-2xl\">\n            on<span className=\"inline-block bg-brand-600 text-white px-3 py-1 rounded-lg ml-1 transform -rotate-2\">Tech</span>\n            <br />\n            <span className=\"text-slate-300 text-4xl md:text-6xl lg:text-7xl font-bold\">{content.hero.title}</span>\n          </h1>\n          <p className=\"mt-6 max-w-3xl mx-auto text-lg md:text-2xl text-slate-400 font-light leading-relaxed animate-fade-up delay-100\">\n            {content.hero.subtitle}\n          </p>\n          \n          <div className=\"mt-12 flex flex-col sm:flex-row justify-center gap-6 animate-fade-up delay-200\">\n            <a\n              href={`https://wa.me/${whatsappNumber}?text=Hi,%20I'm%20interested%20in%20onTech%20services.`}\n              target=\"_blank\"\n              rel=\"noopener noreferrer\"\n              className=\"group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-[#25D366] rounded-lg hover:bg-[#20bd5a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 focus:ring-offset-slate-900 overflow-hidden\"\n            >\n              <div className=\"absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]\"></div>\n              <MessageCircle className=\"mr-2 w-5 h-5\" />\n              <span>{content.hero.cta}</span>\n              <ArrowIcon className=\"ml-3 rtl:mr-3 rtl:ml-0 w-5 h-5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform\" />\n            </a>\n            <a\n               href=\"#services\"\n               onClick={(e) => scrollToSection(e, '#services')}\n               className=\"inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white transition-all duration-200 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 backdrop-blur-sm\"\n            >\n               {content.nav.services}\n            </a>\n          </div>\n        </div>\n      </div>\n\n      <a \n        href=\"#services\"\n        onClick={(e) => scrollToSection(e, '#services')}\n        className=\"absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce text-slate-500 hover:text-white transition-colors cursor-pointer z-20\"\n      >\n        <ChevronDown size={32} />\n      </a>\n    </div>\n  );\n};\n\nexport default Hero;"
+            }
+          ]
+        }
+      ]
+    },
+    "createdTimestamp": {
+      "seconds": 1768060133,
+      "nanos": 271000000
+    },
+    "doneTimestamp": {
+      "seconds": 1768060145,
+      "nanos": 669000000
+    }
+  }
+]

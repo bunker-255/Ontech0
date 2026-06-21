@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onTech | מומחי תשתיות תקשורת ומערכות אבטחה</title>
+    <meta name="description" content="onTech היא חברת תשתיות מובילה בישראל. אנו מספקים פתרונות תקשורת, התקנת מצלמות אבטחה, אזעקות, סידור ארונות שרתים וסיבים אופטיים בדיוק הנדסי." />
+    <meta name="keywords" content="תשתיות תקשורת, מצלמות אבטחה, סידור ארונות שרתים, תשתיות רשת, אבטחה, סיבים אופטיים" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ontech.bunker-255.com/" />
+    <meta property="og:title" content="onTech | מומחי תשתיות תקשורת ומערכות אבטחה" />
+    <meta property="og:description" content="onTech היא חברת תשתיות מובילה בישראל. אנו מספקים פתרונות תקשורת, התקנת מצלמות אבטחה, אזעקות, סידור ארונות שרתים וסיבים אופטיים." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/bunker-255/onTech/refs/heads/main/photo/Server.jpg" />
+    <meta property="og:locale" content="he_IL" />
+    <meta property="og:site_name" content="onTech" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ontech.bunker-255.com/" />
+    <meta name="twitter:title" content="onTech | מומחי תשתיות תקשורת ומערכות אבטחה" />
+    <meta name="twitter:description" content="onTech היא חברת תשתיות מובילה בישראל. אנו מספקים פתרונות תקשורת, התקנת מצלמות אבטחה, אזעקות וסידור ארונות שרתים." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/bunker-255/onTech/refs/heads/main/photo/Server.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/favicon.svg">
+    <link rel="canonical" href="https://ontech.bunker-255.com/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "onTech",
+      "image": "https://raw.githubusercontent.com/bunker-255/onTech/refs/heads/main/photo/Server.jpg",
+      "description": "24/7 onTech היא חברת תשתיות מובילה בישראל. אנו מספקים פתרונות תקשורת, התקנת מצלמות אבטחה, אזעקות, סידור ארונות שרתים וסיבים אופטיים בדיוק הנדסי.",
+      "url": "https://ontech.bunker-255.com/",
+      "logo": "https://ontech.bunker-255.com/favicon.svg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IL"
+      }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Heebo:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      /* Heebo is great for Hebrew */
+      html[lang="he"] body {
+        font-family: 'Heebo', sans-serif;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .animate-fade-up {
+        animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+      
+      .delay-100 { animation-delay: 0.1s; }
+      .delay-200 { animation-delay: 0.2s; }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0f7ff',
+                100: '#e0effe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7', // Primary Brand Color
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+              }
+            }
+          }
+        }
+      }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="antialiased text-slate-900 bg-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

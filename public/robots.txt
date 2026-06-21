@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?*
+
+Sitemap: https://ontech.bunker-255.com/sitemap.xml
